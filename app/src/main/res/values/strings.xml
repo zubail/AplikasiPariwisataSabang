@@ -1,0 +1,9 @@
+<resources>
+    <string name="app_name">AplikasiPariwisataSabang</string>
+
+    <string name="hello_world">Hello world!</string>
+    <string name="action_settings">Settings</string>
+    <string name="title_activity_jelajah_turis">JelajahTurisActivity</string>
+    <string name="title_activity_cari_wisata">CariWisataActivity</string>
+    <string name="title_activity_cari_hotel">CariHotelActivity</string>
+</resources>
