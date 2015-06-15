@@ -1,19 +1,20 @@
 package id.ac.unsyiah.jte.mobile.aplikasipariwisatasabang;
 
 import android.content.Intent;
-import android.support.v7.app.ActionBarActivity;
 import android.os.Bundle;
+import android.support.v7.app.AppCompatActivity;
 import android.view.Menu;
 import android.view.MenuItem;
 import android.view.View;
 
 
-public class CariWisataActivity extends ActionBarActivity {
+public class CariWisataActivity extends AppCompatActivity {
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
-        setContentView(R.layout.activity_cari_wisata);
+        setContentView(R.layout.activity_main);
+
     }
 
     @Override
@@ -37,8 +38,51 @@ public class CariWisataActivity extends ActionBarActivity {
 
         return super.onOptionsItemSelected(item);
     }
-    public void doBack(View view) {
-        Intent intent = new Intent(this, JelajahTurisActivity.class);
+    public void doTugu(View view) {
+        Intent intent = new Intent(this, TuguActivity.class);
+        startActivity(intent);
+    }
+    public void doIboih(View view) {
+        Intent intent = new Intent(this, IboihActivity.class);
+        startActivity(intent);
+    }
+    public void doAneukLaot(View view) {
+        Intent intent = new Intent(this, AneukLaotActivity.class);
+        startActivity(intent);
+    }
+    public void doRubiah(View view) {
+        Intent intent = new Intent(this, PulauRubiahActivity.class);
+        startActivity(intent);
+    }
+    public void doGapang(View view) {
+        Intent intent = new Intent(this, PantaiGapangActivity.class);
+        startActivity(intent);
+    }
+    public void doParadiso(View view) {
+        Intent intent = new Intent(this, ParadisoActivity.class);
+        startActivity(intent);
+    }
+    public void doTapakGajah(View view) {
+        Intent intent = new Intent(this, TapakGajahActivity.class);
+        startActivity(intent);
+    }
+    public void doAngen(View view){
+        Intent intent = new Intent(this, AngenActivity.class);
+        startActivity(intent);
+    }
+    public void doPriaLaot(View view){
+        Intent intent = new Intent(this, PriaLaotActivity.class);
+        startActivity(intent);
+    }
+    public void doJaboi(View view){
+        Intent intent = new Intent(this, JaboiActivity.class);
+        startActivity(intent);
+    }
+    public void doKeuneukai(View view){
+        Intent intent = new Intent(this, KeuneukaiActivity.class);
         startActivity(intent);
     }
 }
+
+
+

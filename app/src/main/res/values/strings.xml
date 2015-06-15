@@ -6,4 +6,18 @@
     <string name="title_activity_jelajah_turis">JelajahTurisActivity</string>
     <string name="title_activity_cari_wisata">CariWisataActivity</string>
     <string name="title_activity_cari_hotel">CariHotelActivity</string>
+    <string name="title_activity_list_hotel">ListHotelActivity</string>
+    <string name="title_activity_detail_hotel">DetailHotelActivity</string>
+    <string name="title_activity_tugu">TuguActivity</string>
+    <string name="title_activity_iboih">IboihActivity</string>
+    <string name="title_activity_aneuk_laot">AneukLaotActivity</string>
+    <string name="title_activity_pulau_rubiah">PulauRubiahActivity</string>
+    <string name="title_activity_pantai_gapang">PantaiGapangActivity</string>
+    <string name="title_activity_paradiso">ParadisoActivity</string>
+    <string name="title_activity_tapak_gajah">TapakGajahActivity</string>
+    <string name="title_activity_nipah">NipahActivity</string>
+    <string name="title_activity_angen">AngenActivity</string>
+    <string name="title_activity_pria_laot">PriaLaotActivity</string>
+    <string name="title_activity_jaboi">JaboiActivity</string>
+    <string name="title_activity_keuneukai">KeuneukaiActivity</string>
 </resources>

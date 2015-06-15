@@ -5,46 +5,33 @@
     android:paddingTop="@dimen/activity_vertical_margin"
     android:paddingBottom="@dimen/activity_vertical_margin" tools:context=".MainActivity">
 
-    import android.content.Intent;
-    import android.support.v7.app.ActionBarActivity;
-    import android.os.Bundle;
-    import android.view.Menu;
-    import android.view.MenuItem;
-    import android.view.View;
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceLarge"
+        android:text="SELAMAT DATANG DI SABANG"
+        android:id="@+id/textView3"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true" />
 
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceMedium"
+        android:text="Kota Sabang adalah salah satu kota di Aceh, Indonesia. Kota ini berupa kepulauan di seberang utara Pulau Sumatera, dengan Pulau Weh sebagai pulau terbesar"
+        android:id="@+id/textView4"
+        android:layout_marginTop="65dp"
+        android:layout_below="@+id/textView3"
+        android:layout_centerHorizontal="true" />
 
-    public class MainActivity extends ActionBarActivity {
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="jelajahi keindahan sabang"
+        android:id="@+id/btnIboih"
+        android:onClick="doBack"
+        android:layout_below="@+id/textView4"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="86dp" />
 
-    @Override
-    protected void onCreate(Bundle savedInstanceState) {
-    super.onCreate(savedInstanceState);
-    setContentView(R.layout.activity_main);
-    }
-
-    @Override
-    public boolean onCreateOptionsMenu(Menu menu) {
-    // Inflate the menu; this adds items to the action bar if it is present.
-    getMenuInflater().inflate(R.menu.menu_main, menu);
-    return true;
-    }
-
-    @Override
-    public boolean onOptionsItemSelected(MenuItem item) {
-    // Handle action bar item clicks here. The action bar will
-    // automatically handle clicks on the Home/Up button, so long
-    // as you specify a parent activity in AndroidManifest.xml.
-    int id = item.getItemId();
-
-    //noinspection SimplifiableIfStatement
-    if (id == R.id.action_settings) {
-    return true;
-    }
-
-    return super.onOptionsItemSelected(item);
-    }
-
-    public void doBack(View view) {
-    Intent intent = new Intent(this, JelajahTurisActivity.class);
-    startActivity(intent);
-    }
-    }
+</RelativeLayout>
